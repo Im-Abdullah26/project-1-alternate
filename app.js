@@ -5,6 +5,9 @@ const message = document.querySelector("#message")
 let pearlCount = 0
 
 button.addEventListener("click", function(){
-    
+
+    pearlCount = pearlCount + 1
+
+
 })
 
