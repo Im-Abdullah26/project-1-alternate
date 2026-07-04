@@ -8,6 +8,11 @@ button.addEventListener("click", function(){
 
     pearlCount = pearlCount + 1
 
+    pearlCounter.textContent = "Pearls Collected: " + pearlCount
 
+    if (pearlCount=== 10){
+
+        message.textContent= "You won! You collected 10 pearls."
+    }
 })
 
